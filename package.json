@@ -1,0 +1,33 @@
+{
+  "name": "video-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.9",
+    "graphql": "^16.3.0",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-player": "^2.9.0"
+  },
+  "devDependencies": {
+    "@cypress/react": "^5.12.3",
+    "@cypress/webpack-dev-server": "^1.8.1",
+    "@testing-library/cypress": "^8.0.2",
+    "autoprefixer": "^10.4.2",
+    "cypress": "^9.5.1",
+    "eslint": "8.10.0",
+    "eslint-config-next": "12.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.7",
+    "tailwindcss": "^1.9.0",
+    "webpack": "^5.69.1",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
